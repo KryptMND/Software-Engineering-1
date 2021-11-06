@@ -8,8 +8,10 @@ public class FourOutOfSixCoins {
             for(int j=1; j <= 6; j++){
                 for(int k=1; k <= 6; k++){
                     for(int l=1; l <= 6; l++){
-                        System.out.println(i + ", " + j + ", " + k + ", " + l);
-                        count++;
+                    	if((i != j) && (i!= k) && (i != l) && (j != k) && (j != l) && (k != l)){
+                            System.out.println(i + ", " + j + ", " + k + ", " + l);
+                            count++;    
+                        }
                     }
                 }
             }
