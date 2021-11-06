@@ -10,8 +10,8 @@ public class LkwDemo {
 		int km = 252;
 		
 		
-		System.out.println("Der Verbrauch des Minivan fuer "+ km + "km ist " + sportwagen.spritVerbrauch(km) + "l");	
-		System.out.println("Der Verbrauch des Sportwagen fuer " + km + "km ist " + magirus.spritVerbrauch(km) + "l");
+		System.out.println("Der Verbrauch des Sportwagen fuer "+ km + "km ist " + sportwagen.spritVerbrauch(km) + "l");	
+		System.out.println("Der Verbrauch des Magirus fuer " + km + "km ist " + magirus.spritVerbrauch(km) + "l");
 
 	}
 
